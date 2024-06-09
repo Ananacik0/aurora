@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    border-radius: 0;
+    border-color: #000;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+header {
+    background-color: #FECC00;
+}
+
+header > .container {
+    max-width: 1316px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav--list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.header_nav--list li > a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header_nav--list li > a:hover {
+    color: #383838;
+    text-decoration: underline;
+    transition: 0.2ms;
+}
+
+.header_number > a {
+    font-size: 24px;
+    text-decoration: underline;
+    color: #000;
+}
+
+footer {
+    background-color: #FECC00;
+}
+
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 100px 0 120px 0;
+}
+
+.footer_link--list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer_link--item > a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer_link--item > a:hover {
+    color: #383838;
+    text-decoration: underline;
+    transition: 0.2ms;
+}
+
+.footer_social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.footer_social--icon {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer_social > a {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+}
+
+.footer_contacts > a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer_contacts > a:first-child {
+    border: 2px solid #000;
+    padding: 10px 30px;
+}
+
+.footer_contacts > a:first-child:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #FECC00;
+}
+
+main {
+    background-color: #FECC00;
+}
+
+.container {
+    width: 1316px;
+    margin: 0 auto;
+}
